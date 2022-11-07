@@ -1,0 +1,102 @@
+html{
+  background-color: #f68d31;
+}
+.App {
+  text-align: center;
+  background-color: #f68d31;
+  color: white;
+  font-weight: bold;
+}
+
+.personajes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+
+img {
+  width: 160px;
+  height: 300px;
+  text-align: center;
+}
+
+.card {
+  width: 350px;
+  height: 460px;
+  margin: 30px;
+  border: solid 3px black;
+  border-radius: 16px;
+  background-color: #0c90b5; 
+}
+.card:hover{
+  animation: bounce 0.5s linear;
+  text-shadow: 0 0 30px #fff; 
+  box-shadow: 0 0 20px #003d72;
+}
+nav{
+  padding: 30px;
+  background-color: #0c90b5;
+}
+nav a{
+  padding: 0px 50px;
+  font-size: 20px;
+}
+
+.imgdetails{
+  width: 300px;
+  height: 10%;
+  background-color: rgba(255, 255, 255, 0.198);
+  border-radius: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.Daishinkan{
+  width: 350px;
+}
+
+button{
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+  border:solid 1px #0c90b5;
+  background-color: #0c90b5;
+  font-size: 20px;
+  color: white;
+}
+
+.logo{
+  width: 20%;
+  height: 20%;
+  text-align: center;
+}
+.about{
+  text-align: center;
+  padding: 0px 400px 0px 400px;
+}
+.imgabout{
+  width: 50%;
+  height: 50%;
+}
+
+.home h1 {
+  font-size: 100px;
+}
+
+.homecard img {
+  width: 20%;
+  height: 20%;
+}
+.homecard{
+  padding: 30px 30px 30px 40px;
+}
+
